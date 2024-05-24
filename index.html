@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folio</title>
+    <script src="polio.js"></script>
+    <link rel="icon" type="image/png" href="https://folio.webestica.com/assets/images/favicon.ico">
+    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="circle">
+        <div class="red"></div>
+    </div>
+    <script>
+        let circle = document.querySelector(".circle");
+        document.addEventListener("mousemove", (e) => {
+            circle.style.top = e.clientY + "px";
+            circle.style.left = e.clientX + "px";
+
+
+
+        });
+    </script>
+
+
+
+
+
+    <main>
+        <!-- <h1>welcome</h1> -->
+
+        <ul class="ful" id="ful">
+            <li type="none">
+                <div class="logo">
+                    <a class="" href="index.html">
+                        <!-- Logo SVG Code -->
+                        <svg class="navbar-brand-item" viewBox="0 0 189.37 60.812" xmlns="http://www.w3.org/2000/svg">
+                            <path class="fill-dark" transform="translate(-5874.9 -436.84)"
+                                d="m5884 496.54-0.32-24.723 20.69 0.011v-7.983l-20.69-0.7v-15.623l22.25-0.267v-7.983h-31.02v57.268h9.09zm58.26-1.284a18.686 18.686 0 0 0 7.34-6.664 19.248 19.248 0 0 0 0-19.662 18.735 18.735 0 0 0-7.34-6.647 23.765 23.765 0 0 0-20.79 0 18.667 18.667 0 0 0-7.34 6.647 19.187 19.187 0 0 0 0 19.662 18.618 18.618 0 0 0 7.34 6.664 23.765 23.765 0 0 0 20.79 0zm-16.21-6.491a10.774 10.774 0 0 1-4.1-4.061 12.452 12.452 0 0 1 0-11.887 10.812 10.812 0 0 1 4.1-4.043 12.345 12.345 0 0 1 11.64 0 10.673 10.673 0 0 1 4.1 4.043 12.635 12.635 0 0 1 0 11.9 10.673 10.673 0 0 1-4.1 4.043 12.345 12.345 0 0 1-11.64 5e-3zm45.17 7.775v-59.7h-8.64v59.7h8.64zm22 0v-35.545h-8.64v35.541h8.64zm-1.68-43.545a5.4 5.4 0 0 0 1.87-1.909 4.988 4.988 0 0 0 0.72-2.62 4.938 4.938 0 0 0-0.72-2.655 5.5 5.5 0 0 0-1.87-1.875 5.219 5.219 0 0 0-5.26 0 5.559 5.559 0 0 0-1.89 1.875 5.021 5.021 0 0 0-0.71 2.655 5.073 5.073 0 0 0 0.71 2.62 5.45 5.45 0 0 0 1.89 1.909 5.213 5.213 0 0 0 5.26 0zm42.97 42.257a18.686 18.686 0 0 0 7.34-6.664 19.187 19.187 0 0 0 0-19.662 18.735 18.735 0 0 0-7.34-6.647 23.765 23.765 0 0 0-20.79 0 18.667 18.667 0 0 0-7.34 6.647 19.187 19.187 0 0 0 0 19.662 18.618 18.618 0 0 0 7.34 6.664 23.765 23.765 0 0 0 20.79 4e-3zm-16.21-6.491a10.844 10.844 0 0 1-4.1-4.061 12.452 12.452 0 0 1 0-11.887 10.883 10.883 0 0 1 4.1-4.043 12.345 12.345 0 0 1 11.64 0 10.673 10.673 0 0 1 4.1 4.043 12.635 12.635 0 0 1 0 11.9 10.673 10.673 0 0 1-4.1 4.043 12.345 12.345 0 0 1-11.64 9e-3z">
+                            </path>
+                            <path class="fill-primary" fill="red" transform="translate(-5874.9 -436.84)"
+                                d="m6061.5 496.89a5.532 5.532 0 0 0 2.05-2.083 5.976 5.976 0 0 0 0-5.761 5.547 5.547 0 0 0-2.05-2.083 5.655 5.655 0 0 0-2.9-0.763 5.761 5.761 0 0 0-2.9 0.763 5.734 5.734 0 0 0-0.02 9.927 5.754 5.754 0 0 0 2.92 0.763 5.655 5.655 0 0 0 2.9-0.763z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </li>
+            <li type="none">
+                <!-- list navbar -->
+                <ul class="sful">
+                    <li type="none">Support</li>
+                    <li type="none" class="displaynone">Free Consultation</li>
+                    <li type="none" class="displaynone">Documention</li>
+                    <li type="none"><button>Buy Folio!</button></li>
+                </ul>
+            </li>
+        </ul>
+
+        <div class="figur">
+            <figure class="position-absolute end-0 top-0 me-n8 mt-n5 d-none d-md-block" fill="red">
+                <svg width="390" height="304" viewBox="0 0 218 170" xmlns="http://www.w3.org/2000/svg">
+                    <path class="fill-primary" fill="red"
+                        d="m143.6  25.1c-5.9-5.6-10.9-12.2-17.8-16.5-13.7-8.6-33.5-5.4-43.8 7-3.9 4.6-6.4 10.2-9.5 15.4-8.4 14-21.1 25-29.9 38.7s-13 32.7-3.4 45.9c9.7 13.4 28.8 15.4 41.7 25.6 6.3 5.1 10.9 12.1 16.9 17.6 19 17.3 52.5 14.6 68.6-5.4 9.9-12.4 13.4-29.3 24.8-40.4 4-3.9 8.9-6.9 12.8-10.9 5.1-5.2 8.4-12 10.8-19 3.1-9.3 4.7-19.6 1.4-28.8-5.7-16-18.7-15.9-32.5-14.4-15 1.8-29.4-4.6-40.1-14.8z">
+                    </path>
+                    <path class="svg-custom-border-dark" d="m17.8 72.7c3.9-3.3 8.1-6.2 12.6-8.8"></path>
+                    <path class="svg-custom-border-dark" d="m18 86.5c4.1-2.9 8.5-5.5 13-7.8"></path>
+                    <path class="svg-custom-border-dark" d="m33.3 93c4.6-2.3 9-5.1 13.1-8.3"></path>
+                    <path class="svg-custom-border-dark" d="m47.6 66.8c3.9-1.8 7.6-4.1 10.9-6.8"></path>
+                    <path class="svg-custom-border-dark" d="m73.7 55.5c3-1.6 5.9-3.2 8.9-4.8"></path>
+                    <path class="svg-custom-border-dark" d="m67.7 69.1c3.4-2.5 7-4.6 10.8-6.4"></path>
+                    <path class="svg-custom-border-dark" d="m64.8 80.5c4.5-2.2 8.9-4.8 13.1-7.7"></path>
+                    <path class="svg-custom-border-dark" d="m71.4 93.6c3.8-1.6 7.4-3.6 10.7-5.9"></path>
+                    <path class="svg-custom-border-dark" d="m70.2 121.5c3.6-2.1 7.2-4.3 10.8-6.4"></path>
+                    <path class="svg-custom-border-dark" d="m54.2 119.2c3.4-2.4 6.7-4.7 10.1-7.1"></path>
+                    <path class="svg-custom-border-dark" d="m36.9 114.9c3.4-2.3 6.8-4.7 10.2-7"></path>
+                    <path class="svg-custom-border-dark" d="m51.1 99.5c2.4-2.7 5.3-5.1 8.4-7"></path>
+                    <path class="svg-custom-border-dark" d="m7.7 121.4c4-2.6 7.9-5.1 11.9-7.7"></path>
+                    <path class="svg-custom-border-dark" d="m17.8 132.7c2.6-1.8 5.2-3.5 7.8-5.3"></path>
+                    <path class="svg-custom-border-dark" d="m21.4 154.1c4.4-3 8.9-6.1 13.3-9.1"></path>
+                    <path class="svg-custom-border-dark" d="m48.8 140.6c2.6-1.9 5.2-3.9 7.8-5.8"></path>
+                    <path class="svg-custom-border-dark" d="m44 158.9c3.1-1.1 6-2.9 8.5-5.1"></path>
+                    <path class="svg-custom-border-dark" d="m67.8 146.5c4.5-2.4 8.8-5.4 12.5-8.9"></path>
+                    <path class="svg-custom-border-dark" d="m73.4 156.1c2.4-1 4.6-2.4 6.6-4.1"></path>
+                    <path class="svg-custom-border-dark" d="m83.3 98.9c2.6-1.8 5.1-3.6 7.7-5.4"></path>
+                </svg>
+            </figure>
+            </figure>
+
+
+        </div>
+
+        <section>
+            <!-- text-content -->
+            <div class="main-text">
+                <div>
+                    <span style="font-family:Reenie Beanie;  color: gray;
+                    font-size: 2rem;" ; id="none">You deserve better. Folio the —</span>
+
+
+
+
+                    <h1 class="text-primary" id="text-primary"><span class="text-dark">Next-gen</span> <span
+                            class="text-dark-stroke">Agency
+                            &amp; Portfolio</span><span style="color: red;"> theme</span></h1>
+
+                    <div class="d-flex">
+                        <h2 id="size" class="text-ligh-suarj ">10</h2>
+                        <div class="ms-4">
+                            <p style="color: gray;">Homepage</p>
+                            <h4 style="font-size: 1.7rem;">Demos</h4>
+                        </div>
+                    </div>
+                    <!-- second -->
+                    <div class="d-flex">
+                        <h2 id="size" class="text-ligh-suarj ">10</h2>
+                        <div class="ms-4">
+                            <p style="color: gray;">Hero</p>
+                            <h4 style="font-size: 1.7rem;">Sections</h4>
+                        </div>
+                    </div>
+                    <!-- third -->
+                    <div class="d-flex">
+                        <h2 id="size" class="text-ligh-suarj ">27</h2>
+                        <div class="ms-4">
+                            <p style="color: gray;">Layouts for</p>
+                            <h4 style="font-size: 1.7rem;">Portfolio</h4>
+                        </div>
+                    </div>
+                    <!-- fourth -->
+                    <div class="d-flex">
+                        <h2 id="size" class="text-ligh-suarj ">110</h2>
+                        <div class="ms-4">
+                            <p style="color: gray;">HTML</p>
+                            <h4 style="font-size: 1.7rem;">Templates</h4>
+                        </div>
+                    </div>
+
+
+
+
+                    <br><br><br><br><br>
+                </div>
+
+            </div>
+        </section>
+
+
+    </main>
+
+    <br><br><br>
+    <header>
+
+
+        <div class="Beautiful-text">
+            <div class="inner-text">
+                <div class="small-text">
+                    <h2 id="local">Beautiful, hand-crafted designs to get you started_</h2>
+                    <p>Can't decide which one to choose? You have the freedom to choose from pre-built elements from
+                        different demos to mix them together in unlimited ways. Start making your creative website right
+                        now!</p>
+                </div>
+
+                <ul class="list-group-inline " id="list-group-inline">
+                    <li type="none"><span><i class="fas fa-check"></i></span>Hand-crafted Design</li>
+                    <li type="none"><span><i class="fas fa-check"></i></span>Lifetime License</li>
+                    <li type="none"><span><i class="fas fa-check"></i></span>Top-Notch Support</li>
+                    <li type="none"><span><i class="fas fa-check"></i></span>Free Updates</li>
+                </ul>
+
+
+
+            </div>
+
+
+        </div>
+    </header>
+    <section id="mygride">
+        <div class="grid" id="grid">
+
+            <div class="grid-card"></div>
+            <div class="grid-card1"></div>
+            <div class="grid-card2"></div>
+            <div class="grid-card3"></div>
+            <div class="grid-card4"></div>
+            <div class="grid-card5"></div>
+            <div class="grid-card6"></div>
+            <div class="grid-card7"></div>
+            <div class="grid-card8"></div>
+        </div>
+
+
+        <p style="text-align: center;color: gray;font-family:Reenie Beanie;cursor: pointer;">Start building beautiful,
+            eye-catchy websites in minutes. <span style="text-decoration: underline;color: black;">Grab Folio
+                now.</span></p>
+
+        <br><br><br><br>
+
+        <div class="bg-dark-overlay-dotted py-2 opacity-3"></div>
+        <!-- <br><br><br><br> -->
+
+
+
+        <div class="main-section-text">
+            <h5 class="display-3 ">#5 Reasons</h5>
+            <h2 class="position-relative">Why you should purchase Folio?</h2>
+
+            <p style="color: gray;">If you are in hurry you can <a href="#hero-section" class="text-dark"><u>Skip this
+                        section.</u></a> Sorry to interrupt your scrolling. But if you are looking for a smart solution
+                for your next (or probably tons of) project(s) then you should read the below contents.</p>
+            <p style="color: gray;">There are plenty of reasons you should buy folio. But we will only highlight those
+                which matter the most.</p>
+            <h5 class="mt">#1. What do you want from a theme? Beauty with a brain(customization)?</h5>
+
+            <p style="color: gray;line-height: 20px;font-size: 15px;">We have got you covered. Folio has the latest
+                trending design with a balance of details. No no, we are not the only ones who say that! Check out our
+                customer review. Where our customer (Mingiyan) explained very well that how we balance trends and
+                "beauty details". After exploring folio you will definitely feel that too.</p>
+
+
+            <p style="color: gray;line-height: 20px;font-size: 15px;">After purchasing the theme your first action will
+                be installation. We have a super easy installation process that a newbie can also install and start
+                customizing the theme. We have simplified this process into few simple steps in "What to do after
+                purchase?" section of the <a href="https://folio.webestica.com/docs/index.html" target="_blank"
+                    class="text-dark"><u>Getting started guide.</u></a></p>
+
+            <h5 class="mt">#2. Tones of options?</h5>
+
+            <p style="color: gray;line-height: 20px;font-size: 15px;">Why settle for less when you can have more, right?
+                If you explore the theme your will notice that every page and every section is unique. - no more
+                copy-pasting. With 10 home pages, tones of inner pages and a bonus 10 hero sections you can fulfill all
+                your needs. To make these options we have used reusable code and components so that you can get more
+                options with less code and less third-party plugins dependency. We have covered all the details from
+                small business startups to big enterprise businesses. Check out <a class="text-dark"
+                    href="#whatyouget"><u>what you get with Folio</u></a> section for more.</p>
+
+            <p style="color: gray;line-height: 20px;font-size: 15px;">
+                If you are a freelancer or agency who's working for clients, then you should go with Multisite license
+                as tons of options can create many websites with one theme. Playing with a new theme for every new
+                project might take up so much time to understand theme structure, work practices, etc. So, you must
+                purchase Multisite license site and use Folio unlimited times for your client's projects.
+            </p>
+            <h5 class="mt">#3. So serious 🧐 about branding?</h5>
+
+            <p style="color: gray;line-height: 20px;font-size: 15px;">
+                Easily customizable color and logo setting. Uncomment ready code in user-variables.scss and change HEX
+                color code and tada 🎉 you are done.
+
+            </p>
+
+            <h5 class="mt">#4. Need help during customization?</h5>
+
+            <p style="color: gray;line-height: 20px;font-size: 15px;">
+                Our support is one of the best and fastest support over the years. Need evidence? Check our both <a
+                    href="" target="_blank" class="text-dark"><u>Wizixo</u></a> and <a href=""
+                    class="text-dark"><u>Folio</u></a> themes reviews. If you feel lazy to go to the theme page and
+                check reviews we have listed few of our client's reviews below. Click on the client name to see reviews.
+            </p>
+
+            <a class="text-dark" href="#"><u>Mingiyan</u></a>&nbsp;&nbsp;&nbsp;
+            <a class="text-dark" href="#"><u>Vanessa</u></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="text-dark" href="#"><u>Bogdan Cristian</u></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="text-dark" href="#"><u>STEFANO</u></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="text-dark" href="#"><u>Stanislav</u></a>
+            &nbsp;&nbsp;&nbsp;
+            <a class="text-dark" href="#"><u>Mingiyan</u></a>
+
+            <h5 class="mt">#5. Not happy 😢 with the final results?</h5>
+            <p style="color: gray;line-height: 20px;font-size: 15px;">
+                No worries we provide free website consultation for clients who purchase Folio theme. <a href=""
+                    class="text-dark"><u>Read more here</u></a>
+            </p>
+
+            <button id="btn">Purchase Now!</button>
+
+
+            <br><br><br><br>
+
+
+            <div class="small-text">
+                <h2 id="local">A bonus Hero sections</h2>
+                <p style="line-height: 22px;">A hero section is a large or oversized web banner that is pinned to the
+                    header section of a web-page. Because of its prominent place in the site’s visual hierarchy, the
+                    hero header is often the first thing users see when arriving on a website. To keep in mind we have
+                    created 10 hero sections so that you can choose as per your project's needs</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="grid-two" id="grid-two">
+
+                <div class="two-grid-card">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/01.jpg" alt="">
+                </div>
+                <div class="two-grid-card1">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/02.jpg" alt="">
+                </div>
+                <div class="two-grid-card2">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/03.jpg" alt="">
+                </div>
+                <div class="two-grid-card3">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/04.jpg" alt="">
+                </div>
+                <div class="two-grid-card4">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/05.jpg" alt="">
+                </div>
+                <div class="two-grid-card5">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/06.jpg" alt="">
+                </div>
+                <div class="two-grid-card6">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/07.jpg" alt="">
+                </div>
+                <div class="two-grid-card7">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/08.jpg" alt="">
+                </div>
+                <div class="two-grid-card8">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/09.jpg" alt="">
+                </div>
+                <div class="two-grid-card9">
+                    <img src="https://folio.webestica.com/landing/assets/images/demos/hero/10.jpg" alt="">
+                </div>
+                <!-- <div class="two-grid-card10">
+            <img src="https://folio.webestica.com/landing/assets/images/demos/hero/11.jpg" alt="">
+      </div> -->
+            </div>
+
+        </div>
+
+
+
+
+        <hr>
+    </section>
+    <br><br><br>
+    <section>
+        <div class="bg-dark-overlay-dotted py-2 opacity-3"></div>
+        <div class="small-text">
+            <h2>What do you get, <span class="text-dark-stroke">With Folio?</span></h2>
+            <p style="line-height: 22px;">You will get stunning 10 homepage demos, 34 element pages, 27 portfolio pages,
+                handpicked pure vanilla javascript (NO jQuery dependency) plugins and lifetime updates. Everything you
+                or your client needs.</p>
+        </div>
+        <br>
+        <div class="main-container-text">
+            <div class="grid-third" id="grid-third">
+                <div class="third-gride">
+                    <div class="main-div-grid-itom">
+                        <div class="innrtvt">
+                            <h2 class="display-strok">10</h2>
+                            <!-- <div class="ms-3"> -->
+                            <h4 class="mb-0-mt-1">Atypical Homepage</h4>
+                            <!-- <br> -->
+
+
+                        </div>
+                        <div style="line-height: 22px;">
+                            <p style="font-family: Reenie Beanie;font-size: 5vmin;">Demos to get started</p>
+
+                            <p style="color: gray;line-height: 24px;font-size: 15px;">“A pink rose among a thousand
+                                white daisies stand out; be likewise.” </p>
+
+                            <p style="color: gray;line-height: 24px;font-size: 15px;">Folio brings a brand new design
+                                for creative agencies, marketing firms, startups, company landing pages, portfolio sites
+                                and corporates to showcase info with style.</p>
+                        </div>
+                        <!-- <div>
+                            <p class="mb-4 font-alt fw-normal display-9">Demos to get started</p>
+
+                          </div> -->
+                    </div>
+                </div>
+                <div class="third-gride">
+                    <div class="main-div-grid-itom">
+                        <div class="innrtvt">
+                            <h2 class="display-strok-two">27</h2>
+                            <!-- <div class="ms-3"> -->
+                            <h4 class="mb-0-mt-1">Portfolio showcase</h4>
+                            <!-- <br> -->
+
+
+                        </div>
+                        <div style="line-height: 22px;">
+                            <p style="font-family: Reenie Beanie;font-size: 5vmin;">Layouts for</p>
+
+                            <p style="color: gray;line-height: 24px;font-size: 15px;">“A portfolio gives a prospective
+                                client, a sense of who you are, what you can do and whether you are the person they
+                                should hire to execute their project. Folio is bundled with Portfolio with cool hover
+                                animations, scroll animations, filters, image reveal effects, 5 different types of case
+                                study layouts and much more..."</p>
+
+
+                        </div>
+                        <!-- <div>
+                            <p class="mb-4 font-alt fw-normal display-9">Demos to get started</p>
+
+                          </div> -->
+                    </div>
+                </div>
+                <div class="third-gride" style="background-color:aqua;">
+                    <div class="main-div-grid-itom"
+                        style="background-image: url(https://folio.webestica.com/assets/images/bg/pattern/07.png);">
+                        <div class="main-div-grid-itom">
+                            <div class="innrtvt">
+                                <h2 class="display-strok-two">110</h2>
+                                <!-- <div class="ms-3"> -->
+                                <h4 class="mb-0-mt-1">HTML templates</h4>
+                                <!-- <br> -->
+
+
+                            </div>
+                            <div style="line-height: 22px;">
+                                <p style="font-family: Reenie Beanie;font-size: 5vmin;">Ready to use for</p>
+
+                                <p style="color: gray;line-height: 24px;font-size: 15px;">We took a step further and
+                                    crafted a set of 90+ pages for a variety of purposes that makes it the ideal point
+                                    to start building websites of any kind. So you get a complete bunch of required
+                                    templates to make your perfect site.</p>
+
+
+                            </div>
+                            <!-- <div>
+                                <p class="mb-4 font-alt fw-normal display-9">Demos to get started</p>
+    
+                              </div> -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <br><br>
+    <section>
+
+        <div class="section-main-content">
+            <div class="small-text">
+                <h2 style="color: red;">5 Offcanvas Menu Styles<span class="text-dark-stroke">With Folio?</span></h2>
+                <p style="line-height: 22px;">We know our lovely customers are creative too like us! High five :) We
+                    have provided 5 different styles of Offcanvas menus so you can choose from according to what works
+                    best as per website styling.</p>
+            </div>
+            <br>
+            <div class="flex-di">
+                <div>
+                    <div class="main-img">
+
+                    </div>
+                    <h5 class="offgray">Offcanvas menu right</h5>
+
+
+                </div>
+                <div>
+                    <div>
+                        <div class="main-img-two">
+
+                        </div>
+                        <h5 class="offgray">Offcanvas menu image reveal</h5>
+
+
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <div class="main-img-third">
+
+                        </div>
+                        <h5 class="offgray">Offcanvas menu light</h5>
+
+
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br><br><br>
+
+
+        </div>
+
+        <div>
+            <div class="small-text">
+                <h2 style="color: red;">Elegant and Impressive Inner Pages<span class="text-dark-stroke">With
+                        Folio?</span></h2>
+                <p style="line-height: 22px;">Not just the homepage, we have crafted many different beautiful inner
+                    single pages. So you get a complete bunch of required pages to make your perfect site.</p>
+            </div>
+            <br>
+            <div>
+                <div class="flex-di-two">
+                    <div id="img">
+
+
+
+                    </div>
+
+                    <div id="img1">
+                        <div>
+
+                        </div>
+
+                    </div>
+                    <div id="img2">
+                        <div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="small-text">
+                    <h2 id="local"><span>Elements & Components</span></h2>
+                    <p style="line-height: 22px;">Folio is carefully made with high-quality Elements and components.
+                        Each element can be customized according to your requirements with only a few edits.</p>
+
+                </div>
+                <br><br>
+                <div class="icon-grid">
+                    <!-- <br> -->
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 far fa-plus-square fa-fw me-2"></i>Accordion
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-paperclip fa-fw me-2"></i>Action
+                                box</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-exclamation-triangle fa-fw me-2"></i>Alerts
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-radiation-alt fa-fw me-2"></i>Animation
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 far fa-user fa-fw me-2"></i>Avatar
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-quote-right fa-fw me-2"></i>Blockquote
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-angle-right fa-fw me-2"></i>breadcrumbs
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-link fa-fw me-2"></i>Buttons
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 far fa-window-restore fa-fw me-2"></i>Cards
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-user-tie fa-fw me-2"></i>Clients
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-sort-numeric-up-alt fa-fw me-2"></i>Counter
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-spray-can fa-fw me-2"></i>Decorations
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-cut fa-fw me-2"></i>Divider
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-newspaper fa-fw me-2"></i>Feature
+                                box</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 far fa-clipboard fa-fw me-2"></i>Forms
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fab fa-wpforms fa-fw me-2"></i>Forms
+                                layout</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-map fa-fw me-2"></i>Google
+                                Map</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-list fa-fw me-2"></i>List
+                                group</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-search-plus fa-fw me-2"></i>Modals
+                                popup</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-ellipsis-h fa-fw me-2"></i>Pagination
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-spinner fa-spin fa-fw me-2"></i>Pre
+                                loaders</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-tasks fa-fw me-2"></i>Process
+                                (Work Step)</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-grip-lines fa-fw me-2"></i>Progress
+                                bar</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-share-alt fa-fw me-2"></i>Social
+                                icons</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-bars fa-fw me-2"></i>Offcanvas
+                                Menus</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-table fa-fw me-2"></i>Tables
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-toggle-on fa-fw me-2"></i>Tabs
+                                and Navs</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-i-cursor blink-animation fa-fw me-2"></i>Typing
+                                Headlines</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-font fa-fw me-2"></i>Typography
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-file-video fa-fw me-2"></i>Video
+                            </div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-photo-video fa-fw me-2"></i>Video
+                                background</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-expand fa-fw me-2"></i>GLightbox
+                                popup</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 fas fa-sliders-h fa-fw me-2"></i>Isotope
+                                (Filters & Masonry)</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="d-block w-100 text-center display-9 opacity-3 mb-3 far fa-arrow-alt-circle-right fa-fw me-2"></i>Tiny
+                                Slider</div>
+                        </div>
+                    </div>
+                    <div id="grid-icon">
+                        <div class="icon">
+                            <div class="line-draw-inner"><i
+                                    class="  d-block w-100 text-center display-9 opacity-3 mb-3 far   fa-solid fa-heart fa-beat"
+                                    style="color: #6f2107;"></i>Like</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <section class="last-section">
+        <div class="bg-dark-overlay-dotted py-2 opacity-3"></div>
+        <div class="main-card-last">
+
+            <div class="container-last">
+                <div class="small-text-width">
+                    <h2 style="color: red;font-size: 38px;">Showcase Your Works.<span class="text-dark-stroke">
+                            Like a Pro_</span></h2>
+                    <p style="line-height: 32px;color: gray;">"First impressions are lasting". Creating your portfolio
+                        website allows you to share and showcase your work easily with the employers you’d like to work
+                        for. To make the best Therefore we have created tons of portfolio layout options to choose from.
+                    </p>
+                </div>
+                <hr>
+                <p style="text-align: center;color: gray;font-family:Reenie Beanie;cursor: pointer;">Start building
+                    beautiful,
+                    eye-catchy websites in minutes. <span style="text-decoration: underline;color: black;">Grab Folio
+                        now.</span></p>
+                <div id="img-last"> <img src="https://folio.webestica.com/landing/assets/images/hero-image.png"
+                        alt="img">
+                </div>
+
+            </div>
+            <div class="container-last">
+
+                <img src="demo.png" alt="img">
+            </div>
+        </div>
+        <br>
+        <div class="bg-dark-overlay-dotted py-2 opacity-3"></div>
+
+    </section>
+
+    <br><br>
+    <footer>
+
+
+        <div class="main-footer">
+
+            <div class="gride-icon-box">
+                <div class="box-icon">
+                    <div class="col-md-6-col-lg-3">
+                        <i class="fas fa-drafting-compass display-7 mb-3 text-primary"></i>
+                        <h3 class="text-white">Creative &amp; Trending Designs</h3>
+                    </div>
+                </div>
+                <div class="box-icon">
+                    <div class="col-md-6-col-lg-3">
+                        <i class="fas fa-cogs display-7 mb-3 text-primary"></i>
+                        <h3 class="text-white">Reliable and Regular Updates</h3>
+                    </div>
+                </div>
+                <div class="box-icon">
+                    <div class="col-md-6-col-lg-3">
+                        <i class="fas fa-drafting-compass display-7 mb-3 text-primary"></i>
+                        <h3 class="text-white">Creative &amp; Trending Designs</h3>
+                    </div>
+                </div>
+                <div class="box-icon">
+                    <div class="col-md-6-col-lg-3">
+                        <i class="far fa-life-ring display-7 mb-3 text-primary"></i>
+                        <h3 class="text-white">5-Star Customer Support</h3>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="small-text-footer">
+                <h2><span class="text-dark-stroke">Get your copy of Folio now - It's easier than you might think.</span>
+                </h2>
+                <p style="line-height: 22px;">You will get stunning 10 homepage demos, 34 element pages, 27 portfolio
+                    pages,
+                    handpicked pure vanilla javascript (NO jQuery dependency) plugins and lifetime updates. Everything
+                    you
+                    or your client needs.</p>
+                <br><br>
+
+                <button id="purchase">
+                    Purchase Now!
+
+                </button>
+            </div>
+            <br><br><br><br>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+</html>

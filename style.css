@@ -1,0 +1,1038 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circle {
+    height: 24px;
+    width: 24px;
+    /* background: url(/HTML/image/twit01.jpeg); */
+    background-color: red;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+
+    z-index: 0;
+    position: absolute;
+    transition: all .3s;
+    /* box-shadow: 1px 1px 5px 5px red; */
+    /* box-shadow: 2px 1px 14px -1px currentColor; */
+    transform: rotateX(-50%, -50%);
+    position: absolute;
+    /* opacity: ; */
+}
+
+.red {
+    transition: all .6s;
+    height: 5px;
+    background-color: aliceblue;
+    line-height: 24px;
+    margin: 9px auto;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    width: 5px;
+    /* border: 2px solid ; */
+}
+
+main {
+    overflow: hidden;
+    background: url(https://folio.webestica.com/assets/images/bg/pattern/07.png);
+    /* background-image: url("https://folio.webestica.com/assets/images/bg/pattern/07.png"); */
+    z-index: 1;
+    width: auto;
+    /* border: 2px solid; */
+    height: auto;
+    /* background-size: cover; */
+    position: relative;
+}
+
+.logo {
+    width: 15vmin;
+    height: 10vmin;
+    line-height: 13vmin;
+    /* border: 2px solid; */
+}
+
+.logo>svg {
+    width: 100%;
+    height: 100%;
+}
+
+.ful {
+    /* position: absolute; */
+    gap: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sful {
+    gap: 15px;
+    /* width: 114%; */
+    cursor: pointer;
+    line-height: 10vmin;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sful li:hover {
+    color: #ea110c;
+
+}
+
+li button {
+    letter-spacing: 0.5px;
+    position: relative;
+    background-color: #ea110c;
+    overflow: hidden;
+    margin-bottom: 6px;
+    /* border-radius: 5px; */
+    border: none;
+    color: white;
+    outline: 0;
+    white-space: nowrap;
+    padding: 2vmin;
+    font-weight: 600;
+}
+
+
+.figur figure {
+    float: right;
+    padding: 0px;
+    width: 67vim;
+    margin: -183px -119px;
+    rotate: -21deg;
+}
+
+.main-text {
+    font-family: sans-serif;
+    padding: 5vmin;
+    width: 100%;
+    background-image: url(https://folio.webestica.com/landing/assets/images/hero-image.png);
+    display: block;
+    background-position-x: -8px;
+    height: auto;
+    /* position: relative; */
+    z-index: 100;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/* background- */
+
+
+.text-primary {
+    line-height: 9vmin;
+    width: 38%;
+    font-size: 7vmin;
+    /* border: 1px solid; */
+}
+
+.text-dark-stroke {
+
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: gray;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    width: 248px;
+    /* border: 2px solid; */
+    height: 72px;
+    text-align: -webkit-center;
+    /* line-height: 50%; */
+}
+
+.ms-4 {
+    line-height: 0px;
+    margin: -1px auto;
+
+}
+
+.text-ligh-suarj {
+    margin-top: 5px;
+    font-size: 8vmin;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #dfe0e5;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .side-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    position: relative;
+    height: 300px;
+    border: 1px solid;
+    float: inline-end;
+    background-image: url(https://folio.webestica.com/landing/assets/images/hero-image.png);
+} */
+
+.Beautiful-text {
+    width: auto;
+    height: auto;
+    font-family: sans-serif;
+    padding: 15px;
+    /* border: 2px solid red; */
+}
+
+.inner-text {
+    height: auto;
+    /* border: 2px solid; */
+}
+
+.small-text {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.small-text h2 {
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+
+.small-text p {
+    color: gray;
+    line-height: 32px;
+    font-size: 15px;
+    width: 90%;
+    margin: 0 auto;
+    /* margin: -20px auto; */
+}
+
+.list-group-inline {
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+    /* margin: 0 -45px; */
+}
+
+.fa-check {
+    height: 13px;
+    width: 13px;
+    color: red;
+    background: #f58886;
+    padding: 8px;
+    border-radius: 50%;
+    margin-right: 11px;
+}
+
+.grid {
+    cursor: pointer;
+    display: grid;
+    box-sizing: border-box;
+    padding: 15px;
+    gap: 5px;
+    /* position: abso; */
+    /* border: 2px solid; */
+    grid-template-columns: repeat(auto-fit, minmax(313px, 3fr));
+}
+
+#grid>div:hover {
+    margin-top: -15px;
+    transition: all 3s;
+
+}
+
+#grid>div {
+    box-shadow: 1px 0px 25px 5px rgb(159, 157, 157);
+    margin-bottom: 15px;
+}
+
+.grid-card {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/01.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card1 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/02.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+
+.grid-card1 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/03.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card2 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/04.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card3 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/05.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card4 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/06.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card5 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/07.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card6 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/08.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card7 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/09.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.grid-card8 {
+    height: 350px;
+    position: relative;
+    width: 350px;
+    background-size: cover;
+    background-image: url(https://folio.webestica.com/landing/assets/images/demos/10.jpg);
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+#mygride {
+    padding: 15px 1px;
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 100%;
+}
+
+.bg-dark-overlay-dotted {
+    background-image: radial-gradient(#19191c 10%, transparent 0), radial-gradient(#19191c 10%, transparent 0);
+    background-size: 7px 5px;
+    /* border: 1px solid; */
+    height: 25px;
+    background-position: 11px 13px, 0px 6px;
+}
+
+.main-section-text {
+    margin-top: -85px;
+    /* border: 2px solid; */
+    font-family: sans-serif;
+    height: auto;
+    padding: 0 25px;
+    width: auto;
+}
+
+.main-section-text .display-3 {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #dfe0e5;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: -4.5rem;
+    font-size: calc(2.4125rem + 4.95vw);
+
+}
+
+.position-relative {
+
+    font-family: sans-serif;
+    font-size: 5vmin
+}
+
+.main-section-text a {
+    color: #19191c;
+}
+
+.main-section-text p {
+    line-height: 31px;
+}
+
+.mt {
+    font-size: 1.09375rem;
+}
+
+#btn {
+    letter-spacing: 0.5px;
+    position: relative;
+    padding: 15px 20px;
+    border:
+        none;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 6px;
+    background-color: #19191c;
+    outline: 0;
+    white-space: nowrap;
+}
+
+.grid-two {
+    display: grid;
+    gap: 15px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
+}
+
+.two-grid-card {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card img {
+    width: 100%;
+}
+
+.two-grid-card1 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card1 img {
+    width: 100%;
+}
+
+.two-grid-card2 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card2 img {
+    width: 100%;
+}
+
+.two-grid-card3 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card3 img {
+    width: 100%;
+}
+
+.two-grid-card4 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card4 img {
+    width: 100%;
+}
+
+.two-grid-card5 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card5 img {
+    width: 100%;
+}
+
+.two-grid-card6 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card6 img {
+    width: 100%;
+}
+
+.two-grid-card7 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card7 img {
+    width: 100%;
+}
+
+.two-grid-card8 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card8 img {
+    width: 100%;
+}
+
+.two-grid-card9 {
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid; */
+    box-shadow: 3px 6px 28px 4px #ffff;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.two-grid-card9 img {
+    width: 100%;
+}
+
+/* .two-grid-card10{
+    height: 250px;
+    object-fit: cover;
+    width: 419px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid;
+    box-sizing: border-box;
+    padding: 5px;
+}
+.two-grid-card10 img{
+    width: 100%;
+} */
+
+.main-container-text {
+    /* margin: 0 5%; */
+    text-align: center;
+}
+
+.grid-third {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    /* gap: 15px; */
+}
+
+.third-gride {
+    border: 2px solid;
+    width: 355px;
+    height: auto;
+    /* overflow: hidden; */
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.display-strok {
+    text-shadow: 0.03em 0.03em 0 #19191c;
+    font-size: 6vmin;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ea110c;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.display-strok-two {
+
+    text-shadow: 0.03em 0.03em 0 #ea110c;
+    font-size: 6vmin;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #19191c;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.mb-0lopmt-1 {
+    font-size: 1.3125rem;
+}
+
+.mbbom {
+    font-size: 1.3125rem;
+    margin-top: -25px;
+    color: gray;
+    font-family: "Reenie Beanie";
+
+}
+
+#box-ul {
+    border: 1px solid;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+
+}
+
+
+.main-div-grid-itom {
+    height: auto;
+    width: 300px;
+    border: 1px solid red;
+    margin: 0 auto;
+    align-items: center;
+    vertical-align: middle;
+    line-height: 300px;
+}
+
+.innrtvt {
+    display: flex;
+    line-height: 20px;
+    border: 1px solid;
+    justify-content: space-around;
+}
+
+.mb-0-mt-1 {
+    list-style: 25px;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 3vmin;
+}
+
+
+
+
+.section-main-content {
+    height: auto;
+    border: 3px solid red;
+    width: auto;
+    z-index: 1;
+    background: url(https://folio.webestica.com/assets/images/bg/pattern/05.png);
+
+    background-color: black;
+    opacity: 0.9;
+    /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
+
+}
+
+
+.flex-di {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    margin: 0 auto;
+    height: auto;
+    gap: 35px;
+    /* border: 2px solid white; */
+}
+
+.flex-di>div {
+    margin: 0 auto;
+    width: 70%;
+    line-height: 15px;
+    vertical-align: middle;
+    list-style: 50%;
+    padding: 15px;
+    background-color: #dfe0e5;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+.main-img {
+    /* border: 2px solid white; */
+    width: 100%;
+    background-size: cover;
+    background: url(https://folio.webestica.com/landing/assets/images/offcanvas-menu-right.jpg);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-img-two {
+    /* border: 2px solid white; */
+    width: 100%;
+    background-size: cover;
+    background: url(https://folio.webestica.com/landing/assets/images/offcanvas-menu-image-reveal.jpg);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-img-third {
+    /* border: 2px solid white; */
+    width: 100%;
+    background-size: cover;
+    background: url(https://folio.webestica.com/landing/assets/images/offcanvas-menu-light.jpg);
+    height: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#img1 {
+    background-size: cover;
+    /* background: url(https://folio.webestica.com/landing/assets/images/demos/inner-pages/why-us.jpg); */
+}
+
+.flex-di-two {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    margin: 0 auto;
+    height: auto;
+    gap: 35px;
+    /* border: 2px solid white; */
+}
+
+#img {
+    background: url(https://folio.webestica.com/landing/assets/images/demos/inner-pages/about.jpg);
+    /* background-image: url(); */
+    margin: 0 auto;
+    width: 50%;
+    line-height: 15px;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    list-style: 50%;
+    padding: 15px;
+    background-color: #dfe0e5;
+    height: 290px;
+    /* border: 2px solid red; */
+}
+
+#img1 {
+    background: url(https://folio.webestica.com/landing/assets/images/demos/inner-pages/why-us.jpg);
+    /* background-image: url(); */
+    margin: 0 auto;
+    width: 50%;
+    line-height: 15px;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    list-style: 50%;
+    padding: 15px;
+    background-color: #dfe0e5;
+    height: 290px;
+    /* border: 2px solid red; */
+}
+
+#img2 {
+    background: url(https://folio.webestica.com/landing/assets/images/demos/inner-pages/mission.jpg);
+    /* background-image: url(); */
+    margin: 0 auto;
+    width: 50%;
+    line-height: 15px;
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+    list-style: 50%;
+    padding: 15px;
+    background-color: #fff9f9;
+    height: 290px;
+    /* border: 2px solid red; */
+}
+
+.icon-grid {
+    width: auto;
+    height: auto;
+    padding: 15px;
+
+
+    background: azure;
+    display: grid;
+    /* background-color:rgb(195, 189, 189); */
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
+    /* border: 2px so   lid red; */
+}
+
+#grid-icon {
+    /* width: auto; */
+    /* height: au//to; */
+    border: 1px solid red;
+    margin: 0 auto;
+    /* margin-left: 15px; */
+    /* height: 100px; */
+    /* width: 100px; */
+    text-align: center;
+    background-color: white;
+    border: 1px solid;
+}
+
+.icon {
+    cursor: pointer;
+
+    margin: 24px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+
+/* .me-2 {
+    margin-left: 0.5rem !important;
+} */
+.w-100 {
+    width: 100% !important;
+}
+
+.last-section {
+    width: 99.5%;
+    height: auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+    /* border: 2px solid; */
+}
+
+.main-card-last {
+    box-sizing: border-box;
+    display: grid;
+    position: relative;
+    width: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding: 15px;
+    /* position: ; */
+    /* margin-bottom: 15px; */
+    /* flex-wrap: wrap; */
+    list-style: 400px;
+    vertical-align: middle;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    height: auto;
+
+}
+
+.container-last {
+    position: relative;
+    height: auto;
+    /* margin-bottom: 15px; */
+
+    overflow: hidden;
+    background-size: cover;
+    margin: 0 auto;
+    /* background-position: center; */
+
+    /* background-image: url(demo.png); */
+    width: 70%;
+
+    border: 2px solid rgb(175, 174, 172);
+}
+
+.container-last img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    margin-left: -28px;
+    padding-left: 40px;
+}
+
+
+
+.small-text-width {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+#img-last {
+    width: 100%;
+    height: 29%;
+    overflow: hidden;
+}
+
+#img-last img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+footer>div {
+    background-repeat: repeat;
+    background-size: contain;
+    width: auto;
+    /* background: black; */
+    background: url(https://folio.webestica.com/assets/images/bg/pattern/06.png);
+    height: auto;
+    border: 2px solid red;
+    font-family: sans-serif;
+    background: black;
+    color: white;
+    opacity: 3.5;
+    background-attachment: scroll;
+    position: relative;
+}
+
+p::selection {
+    background-color: red;
+    color: white;
+}
+
+h1::selection {
+    background-color: black;
+    color: white;
+}
+
+h2::selection {
+    background-color: black;
+    color: white;
+}
+
+h3::selection {
+    background-color: black;
+    color: white;
+}
+
+h4::selection {
+    background-color: black;
+    color: white;
+}
+
+h5::selection {
+    background-color: black;
+    color: white;
+}
+
+.gride-icon-box {
+    display: grid;
+    margin: 57px auto;
+    cursor: pointer;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    /* border: 2px solid aqua; */
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+#grid-icon {
+    height: 50%;
+    /* margin: 0 auto; */
+    /* position: relative; */
+    width: 50%;
+    border: 2px solid white;
+}
+
+.col-md-6-col-lg-3>i {
+    color: red;
+    font-size: 10vmin;
+}
+
+#purchase {
+    cursor: pointer;
+    padding: 15px 15px;
+    border: 2px solid white;
+    color: white;
+    background-color: red;
+}
+
+span::selection {
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+
+.small-text-footer {
+    text-align: center;
+    width: auto;
+    margin: 0 auto;
+}

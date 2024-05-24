@@ -1,0 +1,107 @@
+@media screen and (max-width:430px) {
+    .displaynone {
+        display: none;
+    }
+
+    #ful {
+        position: relative;
+        /* border: 2px solid; */
+        width: auto;
+        /* margin: 23px -12px; */
+        justify-content: space-between;
+    }
+
+    .figur {
+        display: none;
+    }
+
+    #text-primary {
+        width: 100%;
+        line-height: 16vmin;
+        font-size: 12vmin;
+
+    }
+
+    #none {
+        display: none;
+    }
+
+    #size {
+        font-size: 15vmin;
+    }
+
+    .d-flex div {
+        margin: -5px auto;
+    }
+
+    .main-text {
+        background-image: url(ht://folio.webestica.com/landing/assets/images/hero-image.png);
+
+        /* background: none; */
+    }
+
+    #local {
+        font-family: 44px;
+        font-size: 2rem;
+    }
+
+    #list-group-inline {
+        display: none;
+
+
+    }
+
+    #grid {
+        padding: 0px;
+    }
+
+    #grid>div {
+        width: 100%;
+        background-position: bottom;
+        height: 426px;
+    }
+
+    .inner-text div {
+        width: auto;
+    }
+
+    .main-section-text h2 {
+        font-size: 7vmin;
+        margin-top: 45px;
+        line-height: 37px;
+    }
+
+    .grid-two div {
+        width: 100%;
+        height: auto;
+    }
+
+    #grid-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #grid-third {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #grid-third div {
+        width: auto;
+        /* padding: 0px  15px; */
+    }
+
+
+
+    .main-card-last>div {
+        width: 100%;
+
+    }
+
+
+}
+    @media screen and (max-width:1024px) {
+        #grid-third {
+            margin: 0 24px;
+        }
+    }
